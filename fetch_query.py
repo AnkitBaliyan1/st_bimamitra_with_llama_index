@@ -1,7 +1,3 @@
-import os
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 from llama_index.core import (
     ServiceContext,
