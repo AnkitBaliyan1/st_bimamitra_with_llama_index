@@ -2,6 +2,9 @@ import streamlit as st
 from fetch_query import *
 from eval_resposne import *
 import pandas as pd
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.title("version_2.0")
 
